@@ -1,0 +1,99 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+}   
+
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 12rem;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+.menu{
+    font-size: 2rem;
+}
+
+.barra a{
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #43484d;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    margin-right: 2rem; 
+}
+
+.nombre{;
+    font-size: 3rem;
+    color: #43484d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.monedas{
+    margin-left: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.text-box{
+    display: ;
+    text-align: center;
+}
+
+.initial-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 300;
+    color: #43484d;
+    margin-bottom: 0;
+}
+
+.sub-title{
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin-top: 2.5rem;
+}
+
+
+#initial-image{
+    display: flex;
+    align-items: center;  
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 25rem;
+}
+
+.estadisticas{
+    width: 7rem;
+    height: 7rem;
+}
+
+.plan{
+    width: 7rem;
+    height: 7rem;
+}
