@@ -9,6 +9,7 @@
     <title>Gestion</title>
 </head>
 <body>
+    
     <div class="barra menuprincipal">
         <a href="index.html">
             <div class="logo">
@@ -17,24 +18,52 @@
             </div>      
         </a>
         <nav class="menu">   
-            <a href="estadisticas.html">Gestion de gastos</a>
-            <a href="">Transferencias</a>
-            <a href="">Solicitudes y cobros</a>
+            <a href="gestion.html">Gestion de gastos</a>
+            <a href="transferencias.html">Transferencias</a>
+            <a href="solicitudcobro.html">Solicitudes y cobros</a>
             <a href="">Recordatorios</a>
             <a href="">FAQS</a>
         </nav>
     </div>
 
     <div class="gastos">
-        <ul class="gasto tit">Movimientos</ul>
-        <ul class="gasto"><img src="images/iconos/cine.svg" alt="gasto"> Cinemark Malvinas Argentinas <br><i>Entreteniminetos</i></ul>
-            
-        <ul class="gasto curso"><img src="images/iconos/rechazo.png" alt=""> Udemy cursos online <br> <i> <br>Operacion  rechazada</i></p></ul>
-            
-        <ul class="gasto"><img src="images/iconos/mercado.svg" alt=""> Carrefour Inc. <br> Supermercado</ul>
-            
-        <ul class="gasto musica"><img src="images/iconos/rechazo.png" alt=""> ¡Tunes Music <br>Operacion rechazada</ul>
+        <ul class="titulo">Movimientos</ul>
 
+        <div class="gasto">
+            <img class="cine" src="images/iconos/cine.svg" alt="gasto">
+            <div class="sub">
+                <ul> Cinemark Malvinas Argentinas</ul>
+                <div class="try"><p>Cinema</p><!---<p class="data">5/7</p>--></div>
+            </div>
+        </div>
+        
+        <div class="gasto">
+            <img class="curso" src="images/iconos/rechazo.png" alt="">
+            <div class="sub rejected">
+                <ul>Udemy cursos online</ul>
+                <div class="try"><p>Operacion rechazada</p><!---<p class="data">5/7</p>--></div>
+            </div>
+        </div>
+
+        <div class="gasto">
+            <img class="mercado" src="images/iconos/mercado.svg" alt="">
+            <div class="sub">
+                <ul>Carrefour Inc.</ul>
+                <div class="try"><p>Mercado</p> <!---<p class="data">5/7</p>--></div>
+            </div>
+        </div>
+
+        <div class="gasto">
+            <img class="musica" src="images/iconos/rechazo.png" alt="">
+            <div class="sub rejected">
+                <ul>¡Tunes Music</ul>
+                <div class="try"> <p>Operacion rechazada</p> <!---<p class="data">5/7</p>--></div>
+            </div>
+        </div>
+
+        <div class="gasto box-down">
+            <p>Mas movimientos</p>
+        </div>
     </div>
 
 
