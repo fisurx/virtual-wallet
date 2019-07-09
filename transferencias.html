@@ -26,20 +26,32 @@
             </nav>
         </div>
 
-    <div class="main-container">
-                <form>
-                    <label for="">Ingrese</label>
-                    <label for="us">
-                        <input type="text" required autocomplete="on" title="user" class="textos" placeholder="Email o número de teléfono">
-                    </label>
+    <div class="main-containerT">
+            <div class="bank-title"><p>Transeferencia bancaria</p></div>
+        <div class="fondo">
+            <form class="form1" action="">
+                <div class="data">
+                        <div class="lab"><label for="firstName" class="first-name">Para </label></div>
+                    <input id="firstName" type="text" placeholder="TransferBanco">
+                </div>
 
-                    <label for="pass">
-                        <input type="text" required autocomplete="on" title="password" class="textos" placeholder="Contraseña">
-                    </label>
-                
-                    <button type="submit" class="btn btn-default" id="enviar" value="Ingresar">Iniciar sesión</button>
+                <div class="data">
+                    <div class="lab"><label for="firstName" class="first-name">Referencia </label></div>
+                    <input id="firstName" type="text" placeholder="PO1234">
+                </div>
 
-                </form>
+                <div class="data">
+                    <div class="lab"><label for="firstName" class="first-name">Numero de cuenta</label></div>
+                    <input id="firstName" type="text" placeholder="123456">
+                </div>
+    
+                <div class="data">
+                    <div class="lab"><label for="firstName" class="first-name">Numero de cuenta</label></div>
+                    <input id="firstName" type="text" placeholder="1000$">
+                </div>
+                <button>Transferir</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
