@@ -20,36 +20,47 @@
                 <nav class="menu">   
                 <a href="gestion.html">Gestion de gastos</a>
                 <a href="transferencias.html">Transferencias</a>
-                <a href="solicitudcobro.html">Solicitudes y cobros</a>
+                <a href="pagos.html">Pagos</a>
                 <a href="">Recordatorios</a>
                 <a href="">FAQS</a>
             </nav>
         </div>
 
     <div class="main-containerT">
-            <div class="bank-title"><p>Transeferencia bancaria</p></div>
+        <div class="bank-title"><p>Transeferencia bancaria</p></div>
         <div class="fondo">
             <form class="form1" action="">
-                <div class="data">
-                        <div class="lab"><label for="firstName" class="first-name">Para </label></div>
-                    <input id="firstName" type="text" placeholder="TransferBanco">
+                <div class="fila1">
+                  <div class="data sup1">
+                        <div class="lab"><label for="firstName" class="first-name">CBU</label></div>
+                        <input id="firstName" type="text" class="casilla" placeholder="TransferBanco">
+                    </div>
+
+                    <div class="data sup2">
+                        <div class="lab"><label for="firstName" class="first-name">Nombre </label></div>
+                        <input id="firstName" type="text" class="casilla" placeholder="PO1234">
+                    </div>
                 </div>
 
-                <div class="data">
-                    <div class="lab"><label for="firstName" class="first-name">Referencia </label></div>
-                    <input id="firstName" type="text" placeholder="PO1234">
+                <div class="fila2">    
+                    <div class="data d1">
+                        <div class="lab"><label for="firstName" class="first-name">Monto</label></div>
+                        <input id="firstName" type="text" class="casilla" placeholder="123456">
+                    </div>
+        
+                    <div class="data d2">
+                        <div class="lab"><label for="inputState" class="">Entidad</label></div>
+                        <select id="inputState" class="casilla">
+                            <option selected>Banco</option>
+                            <option>Banco Provincia</option>
+                            <option>Banco de la Nacion</option>
+                            <option>Banco Galicia</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="data">
-                    <div class="lab"><label for="firstName" class="first-name">Numero de cuenta</label></div>
-                    <input id="firstName" type="text" placeholder="123456">
-                </div>
-    
-                <div class="data">
-                    <div class="lab"><label for="firstName" class="first-name">Numero de cuenta</label></div>
-                    <input id="firstName" type="text" placeholder="1000$">
-                </div>
                 <button>Transferir</button>
+                
             </form>
         </div>
     </div>

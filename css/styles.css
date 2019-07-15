@@ -211,12 +211,8 @@ footer{
         margin-left: 2%;
     }
 
-.data{
-    text-align: center;
-}
 
 .data .lab{
-    display: inline-block;
     width: 10rem;
     text-align: left;
     font-size: 150%;
@@ -229,10 +225,9 @@ footer{
 }
 
 .data input{
-    height: 3rem;
+    height: 4rem;
     width: 25rem;
     border: solid gray 0.1rem;
-    margin-top:5rem;
     padding-left: 2rem; 
 }
 
@@ -259,17 +254,60 @@ footer{
 .fondo{
     margin: 0 auto;
     background-color: rgb(223, 222, 222);
-    width: 55rem;
+    width: 50%;
     height: 46.5rem;
+    padding: 2rem;
 }
 
 
+.fila1{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+    .fila1 .sup1 input{
+        width: 90%;
+    }
+
+    .fila1 .sup2 input{
+        width: 90%;
+    }
+
+.fila2{
+    display: flex;   
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.fila2 label{
+    font-size: 1.4rem;
+
+}
+
+.data select{
+    height: 4.4rem;
+    width: 61.5rem;
+    border: solid gray 0.1rem;
+    padding-left: 2rem;
+    background-color: white;
+    margin-left: 2rem;   
+}
 
 
+.data .d1{
+    margin-left: 2rem;
+}
 
 
+.d2 label{
+    margin-left: 2rem;
+}
+input{
+    height: 6rem;
+}
 
 
-
-
+input{
+    text-transform: uppercase;
+}
 
