@@ -35,7 +35,7 @@ body{
     margin-right: 2rem; 
 }
 
-.nombre{;
+.nombre{
     font-size: 3rem;
     color: #43484d;
     font-family: 'Open Sans', sans-serif;
@@ -192,16 +192,16 @@ footer{
 /* TRANSFERENCIAS */
 
 .main-containerT{
-    width: ;
+    height: 100%;
 }
 
 .bank-title{
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 52.2%;
+    width: 52.3%;
     height: 7rem;
-    background-color: rgb(202, 199, 199);
+    background-color: #5f5f5f;
     margin: 0 auto;
     margin-top: 3%;
     color: #fafafa;
@@ -254,8 +254,10 @@ footer{
 
 .fondo{
     margin: 0 auto;
-    background-color: rgb(223, 222, 222);
+    background-color: white;
     width: 50%;
+    border: solid 1px;
+    border-color: rgb(216, 216, 216);
     padding: 2rem;
 }
 
@@ -329,4 +331,72 @@ input{
     display: inline-block;
     margin-left: 2rem;
     font-size: 1.7rem;
+}
+
+
+
+
+/* MI SALDO */
+
+
+.saldo-caja{
+    display: block;
+    width: 50%;
+    height: 48rem;
+    border: solid 1px;
+    border-radius: 0.6rem;
+    border-color: rgb(216, 216, 216);
+    font-size: 200%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 6rem;
+}
+.saldo-caja p{
+    margin: 0;
+}
+
+.sub-saldo{
+    margin: ;
+}
+.saldo-title{
+    margin: ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saldo-title p{
+    font-size: 150%;
+}
+
+.saldo{
+    color: green;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.valores{
+    background-color: rgb(243, 243, 243);
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 0.6rem;
+}
+
+.usd , .mxn , .eur{
+    display: flex;
+    justify-content: space-between
+}
+
+.aclaracion{
+    font-size: 80%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+}
+
+button{
+    border: 0;
+    background-color: #5f5f5f;
+    width: 100%;
+    height: 12%;
+    color: white;
+    margin-top: 30rem
 }
